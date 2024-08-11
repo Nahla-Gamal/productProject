@@ -1,0 +1,63 @@
+#infoWrapperDiv {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+@media only screen and (max-width: 600px) {
+    #infoWrapperDiv {
+     width: 100%;
+     height: 70%;
+    }
+  }
+.prodect-type{
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+} 
+
+p {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+}
+
+
+#priceDiv {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.cost {
+    color: hsl(158, 36%, 37%);
+    font-weight: bold;
+    font-size: 35px;
+}
+.deleted-cost {
+    color: hsl(228, 12%, 48%);
+}
+
+#cartButton {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+p {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+
